@@ -1,1 +1,41 @@
+# Dataset Description 
 
+Details about datasets 
+
+Dataset || Prompt Code Type               || Vulnerable Defined By   || Vulnerable   || Non-vulnerable
+1       || Code + Description Code Chunk  || LLM + Path Information  || 1810 (43.4%) || 2357 (56.6%)
+2       || Code Code Chunk                || LLM + Path Information  || 2120 (42.6%) || 2851 (57.4%)
+3       || Code + Description Generic Code Chunk || LLM + Path Information || 1810 (43.4%)   || 2357 (56.6%)
+4       || Code Generic Code Chunk ||    LLM + Path Information            || 2120 (42.6%)   || 2851 (57.4%)
+5       || Code + Description Code Chunk   || LLM                     || 3169 (50%)   || 3169 (50%)
+6       || Code Code Chunk                 || LLM                     || 6041 (50%)   || 6041 (50%)
+
+Dataset 1 and 2 contain the following columns:
+  'cve': cve number
+  'code_chunks': 3-line based code chunks based on LLM and Patch Information
+  'vul_category': Type of velnerability (do not use in experiment analysis)
+  'label': Vulnerability classification label. vulnerable (1) or non-vulnerable (0)
+
+Dataset 3 and 4 contain the following columns:
+  'cve': cve number
+  'generic_code_chunks': generic code convert from 3-line based code chunks
+  'vul_category': Type of velnerability (do not use in experiment analysis)
+  'label': Vulnerability classification label. vulnerable (1) or non-vulnerable (0)
+
+Dataset 5 and 6 contain the following columns:
+  'cve': cve number
+  'code_chunks': 3-line based code chunks based on LLM detection. 
+  'label': Vulnerability classification label. vulnerable (1) or non-vulnerable (0)
+
+
+For RQ5 analysis, we used different added lines (1,3,5,7,9, 10,15,20,25) based on code chunks for dataset 6, which are as follows. 
+
+Dataset_6_line_1.json : 1-Line Extended-Based Code Chunk 
+Dataset_6.json : 3-Line Extended-Based Code Chunk 
+Dataset_6_line_5.json : 5-Line Extended-Based Code Chunk 
+Dataset_6_line_7.json : 7-Line Extended-Based Code Chunk 
+Dataset_6_line_9.json : 9-Line Extended-Based Code Chunk 
+Dataset_6_line_10.json : 10-Line Extended-Based Code Chunk 
+Dataset_6_line_15.json : 15-Line Extended-Based Code Chunk 
+Dataset_6_line_20.json : 20-Line Extended-Based Code Chunk 
+Dataset_6_line_25.json : 25-Line Extended-Based Code Chunk 
