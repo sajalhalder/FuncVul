@@ -1,0 +1,14 @@
+pandas==2.2.3
+scikit-learn==1.6.1
+transformers==4.41.1
+accelarate==1.1.1 
+tensorflow==2.16.1
+urllib3==2.2.1
+torch==2.5.1
+llama-cpp-python==0.3.2
+openai==0.28
+vertexai==1.64.0
+accelerate==1.1.1
+matplotlib
+seaborn
+
