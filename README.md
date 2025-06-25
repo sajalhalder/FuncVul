@@ -6,7 +6,7 @@ Software supply chain vulnerabilities arise when attackers exploit weaknesses by
 Please cite the following paper to use this code and dataset in your research work.  
 
 
-Sajal Halder, Muhammad Ejaz Ahmed, and Seyit Camtepe. FuncVul: An Effective Function Level Vulnerability Detection Model using LLM and Code Chunk. Accepted in 30th European Symposium on Research in Computer Security (ESORICS) 2025. 
+Sajal Halder, Muhammad Ejaz Ahmed, and Seyit Camtepe. FuncVul: An Effective Function Level Vulnerability Detection Model using LLM and Code Chunk. Accepted in 30th European Symposium on Research in Computer Security (ESORICS) 2025. Here is the arXiv paper link : http://arxiv.org/abs/2506.19453
 
 In this research work, we aim to answer the following research questions. 
   
