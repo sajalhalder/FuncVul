@@ -78,3 +78,8 @@ Dataset_6_line_10.json : 10-Line Extended-Based Code Chunk
 Dataset_6_line_15.json : 15-Line Extended-Based Code Chunk 
 
 Dataset_6_line_20.json : 20-Line Extended-Based Code Chunk 
+
+
+## Implemtation Details
+To run FunvVul and three baseline models, run FuncVul+Baselines.py file. If you are interested in knowing anything in detail email at sajal.csedu01@gmail.com
+
